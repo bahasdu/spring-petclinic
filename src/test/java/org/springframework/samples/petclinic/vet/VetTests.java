@@ -26,9 +26,21 @@ import static org.assertj.core.api.Assertions.assertThat;
  *
  */
 public class VetTests {
-
+	
+	String a;
+	
     @Test
     public void testSerialization() {
+    	
+    	
+    	if(a.equals("43214321")){
+    		
+    	}
+    	
+    	String b;
+    	
+    	
+    	
     	System.out.println("************************************");
         Vet vet = new Vet();
         vet.setFirstName("Zaphod");
