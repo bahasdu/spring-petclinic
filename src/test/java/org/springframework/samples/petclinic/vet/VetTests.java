@@ -29,6 +29,7 @@ public class VetTests {
 
     @Test
     public void testSerialization() {
+    	System.out.println("************************************");
         Vet vet = new Vet();
         vet.setFirstName("Zaphod");
         vet.setLastName("Beeblebrox");
